@@ -105,6 +105,7 @@ button:hover {
     -webkit-box-shadow: 0 0 5px rgba(0,100,0,50);
     box-shadow: 0 0 5px rgba(0,100,0,50);
 }
+
 @keyframes blink {
     50% {
         color: #0c0;
@@ -136,4 +137,10 @@ button:hover {
         -webkit-box-shadow: 0 0 0 rgba(0,100,0,50);
         box-shadow: 0 0 0 rgba(0,100,0,50);
     }
+}
+#countdown {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    /*color: #00FF2A;
+    font-size: 30px;*/
 }
