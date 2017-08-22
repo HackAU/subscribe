@@ -144,3 +144,8 @@ button:hover {
     /*color: #00FF2A;
     font-size: 30px;*/
 }
+
+#heart{
+    color: red;
+    size: 3px;
+}
