@@ -111,6 +111,7 @@ var BinaryAnimation = function () {
             setInterval(function () {
                 var counter = 0;
                 obj_array.push(new BinaryLine(Random.generate(0, $(document).width()), Random.generate($(document).width() * 0.008, $(document).width() * 0.012), $(document).height()).generate());
+                counter++;
                 console.log('currently ' + counter + 'objects alive.');
             }, 2000);
 
